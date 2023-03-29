@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left bottom , skyblue, lightgreen);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+.container{
+    background:rgba(255, 255, 255, 0.3) ;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    margin: 5px;
+}
+h1{
+    font-size: 30px;
+}
+.input{
+    padding: 10px 20px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.4);
+    border-color: rgba(255, 255, 255, 0.5);
+    margin: 10px;
+}
+.btn{
+    font-size: 26px;
+    border-radius: 6px;
+    border: none;
+    background-color:lightgreen ;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    transition: all 30ms ease-in-out ;
+}
+.info-text{
+    font-size: 15px;
+    font-weight: 400;
+}
