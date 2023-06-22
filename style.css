@@ -9,7 +9,7 @@ body{
 }
 .container{
     background:rgba(255, 255, 255, 0.3) ;
-    padding: 20px;
+    padding: 21px;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
